@@ -20,12 +20,12 @@ body {
   background-color: var(--background);
 }
 
-
 section {
   padding: 3rem 2rem;
-  margin: 0 auto,
+  margin: 0 auto;
   max-width: 1200px;
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@ section {
 }
 
 .navbar a {
-  margin: 0 1 rem;
+  margin: 0 1rem;
   font-size: 1.8rem;
-  color: #fff;
+  color: #fff; /* ✅ Agora ficará branco */
 }
