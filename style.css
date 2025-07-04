@@ -1,8 +1,8 @@
 :root {
-  main-color: #d3ad7f;
-  black: #13131a;
-  background: #010103;
-  border: 0.1rem solid rgba(255,255,255,0.3);
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --background: #010103;
+  --border: 0.1rem solid rgba(255,255,255,0.3);
   font-size: 10px;
 }
 
@@ -13,11 +13,11 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.2 linear;
+  transition: 0.2s linear;
 }
 
 body {
-  background-color: var(--bg);
+  background-color: var(--background);
 }
 
 .header {
@@ -30,7 +30,7 @@ body {
 }
 
 .header section {
-  display: flax;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 1.5rem;
