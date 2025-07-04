@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--background);
+  font-family: sans-serif;
 }
 
 section {
@@ -44,7 +45,7 @@ section {
 }
 
 .navbar a {
-  margin: 0 1rem;
+  margin: 0 1rem; /* ✅ sem espaço entre "1" e "rem" */
   font-size: 1.8rem;
-  color: #fff; /* ✅ Agora ficará branco */
+  color: #fff !important; /* força branco */
 }
