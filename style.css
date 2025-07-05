@@ -49,3 +49,9 @@ section {
   font-size: 1.8rem;
   color: #fff !important; /* força branco */
 }
+
+.navbar a {
+  color: var(--main-color);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
