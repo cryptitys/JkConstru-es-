@@ -133,7 +133,7 @@ section {
   flex-wrap: wrap;
 }
 
-.about .container-image img {
+.about .container-IMG-2025.jpg {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -185,4 +185,4 @@ section {
   .about .row {
     flex-direction: column;
   }
-  }
+  
