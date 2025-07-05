@@ -91,7 +91,7 @@ section {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 10rem; /* para não ficar atrás do header */
+  padding-top: 10rem; /* espaço para o header */
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ section {
   flex-wrap: wrap;
 }
 
-.about .container-IMG-2025.jpg {
+.about .container-image img {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -185,4 +185,4 @@ section {
   .about .row {
     flex-direction: column;
   }
-  
+}
