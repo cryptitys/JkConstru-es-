@@ -2,7 +2,7 @@
   --main-color: #d3ad7f;
   --black: #13131a;
   --background: #010103;
-  --border: 0.1rem solid rgba(255,255,255,0.3);
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   font-size: 10px;
 }
 
@@ -15,12 +15,11 @@
   text-transform: capitalize;
   transition: 0.2s linear;
   font-family: "Roboto", sans-serif;
-
 }
 
 body {
   background-color: var(--background);
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
@@ -47,13 +46,9 @@ section {
 }
 
 .navbar a {
-  margin: 0 1rem; /* ✅ sem espaço entre "1" e "rem" */
+  margin: 0 1rem;
   font-size: 1.8rem;
-  color: #fff !important; /* força branco */
-}
-
-.navbar a {
-  color: var(--main-color);
+  color: #fff !important;
   border-bottom: 0.1rem solid var(--main-color);
   padding-bottom: 0.5rem;
   font-size: 2rem;
@@ -61,14 +56,12 @@ section {
 
 .icons img {
   margin: 1rem;
-  cursor:pointer;
-
+  cursor: pointer;
 }
 
 .icons img:hover {
   width: 40px;
   height: 40px;
-
 }
 
 .btn {
@@ -79,20 +72,16 @@ section {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
-  
 }
 
 .home-container {
   background: url("./img/IMG-2025.jpg");
   background-position: center;
   background-size: cover;
-  
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
-  .home-container {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-  } 
 
 .content {
   max-width: 60rem;
@@ -102,13 +91,11 @@ section {
   color: #fff;
   font-size: 6rem;
 }
+
 .content p {
-  color: #fff
+  color: #fff;
   font-size: 2rem;
-  font-Wright: 100;
-  line-heigth: 1.8;
+  font-weight: 100;
+  line-height: 1.8;
   padding: 1rem 0;
-
 }
-
-
